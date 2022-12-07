@@ -19,8 +19,6 @@
         <module>renren-generator</module>
         <module>renren-fast</module>
         <module>gulimall-gateway</module>
-
-
     </modules>
 
 </project>
