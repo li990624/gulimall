@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    druid:
+      username: root
+      password: root
+      url: jdbc:mysql://192.168.80.128:3306/gulimall_pms?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+      driver-class-name: com.mysql.cj.jdbc.Driver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    alicloud:
+      access-key: LTAI5tNX9ePQ1DCjfmHU2Dcn
+      secret-key: uImSmBbJHV1u2cHZastJCSvzIxTrM1
+      oss:
+        endpoint: oss-cn-chengdu.aliyuncs.com
+        bucket: gulimall-xiansen
+  application:
+    name: gulimall-third-party
+
+server:
+  port: 30000
